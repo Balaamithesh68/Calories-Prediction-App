@@ -24,7 +24,7 @@ if page=="Prediction":
     age=st.number_input("Age",1,100,25)
     height=st.number_input("Height (cm)",140,250,175)
     weight=st.number_input("Weight (kg)",40,200,65)
-    duration=st.number_input("Training Duration in minutes",20,180,60c)
+    duration=st.number_input("Training Duration in minutes",20,180,60)
     heart_rate=st.number_input("Heart Rate",60,200,100)
     body_temp=st.number_input("Body Temperature in Celsius",35.0,45.0,37.0)
 
